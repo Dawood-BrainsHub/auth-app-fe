@@ -19,7 +19,7 @@ const ForgotPassword = () => {
           setIsSubmitted(true);
           toast.success("Rest Password Link Sent to Your Email!");
         } catch (error) {
-          console.log(error);
+          toast.error(error.response.data.message);
         }
     }
     return (
