@@ -2,7 +2,7 @@ import {create} from "zustand";
 import axios from "axios";
 import { toast } from 'react-toastify';
 
-const API_URL="https://427b4afe-9477-4684-9c6a-d65867b8f755-00-3uwe781v2971m.sisko.replit.dev/api/auth";
+const API_URL="https://e00b9c6e-c83f-4128-ad14-bdefaa6706b1-00-2poweyqxv7eop.sisko.replit.dev/api/auth";
 
 axios.defaults.withCredentials = true;
 
